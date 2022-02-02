@@ -45,6 +45,11 @@ body {
   }
 }
 
+.contact {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .copyright {
   position: relative;
   display: flex;
@@ -61,6 +66,7 @@ body {
 
 .description {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
 }
 
 .images {

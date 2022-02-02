@@ -32,6 +32,19 @@ body {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 780px) {
+  div.copyright {
+    font-size: xx-small;
+  }
+  div.contact {
+    font-size: x-small;
+  }
+
+  div.description {
+    font-size: x-small;
+  }
+}
+
 .copyright {
   position: relative;
   display: flex;

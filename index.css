@@ -3,12 +3,14 @@ body {
   height: 100%;
   width: 100%;
   padding-top: 2%;
+  margin: auto;
 }
 
 .container {
   width: 50%;
   height: 100%;
   margin: auto;
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
 }
@@ -50,6 +52,12 @@ body {
   }
   img.logo {
     width: 35%;
+  }
+  div.header {
+    margin-bottom: 5%;
+  }
+  div.copyright {
+    margin-top: 5px;
   }
 }
 

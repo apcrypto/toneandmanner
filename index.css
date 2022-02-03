@@ -41,12 +41,15 @@ body {
   }
 
   div.contact-small {
-    font-size: x-small;
+    font-size: small;
     display: block;
   }
 
   div.container {
     width: 85%;
+  }
+  img.logo {
+    width: 35%;
   }
 }
 

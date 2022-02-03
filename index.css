@@ -41,12 +41,10 @@ body {
   div.contact-large {
     display: none;
   }
-
   div.contact-small {
     font-size: small;
     display: block;
   }
-
   div.container {
     width: 85%;
   }
@@ -57,7 +55,10 @@ body {
     margin-bottom: 5%;
   }
   div.copyright {
-    margin-top: 5px;
+    margin-top: 4%;
+  }
+  div.phone {
+    margin-top: 3%;
   }
 }
 

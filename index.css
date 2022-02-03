@@ -32,16 +32,21 @@ body {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 978px) {
   div.copyright {
     font-size: xx-small;
   }
-  div.contact {
-    font-size: x-small;
+  div.contact-large {
+    display: none;
   }
 
-  div.description {
+  div.contact-small {
     font-size: x-small;
+    display: block;
+  }
+
+  div.container {
+    width: 85%;
   }
 }
 
@@ -75,12 +80,22 @@ body {
   position: relative;
 }
 
-.inst-logo {
-  height: 20%;
+.social {
+  text-align: right;
+  max-width: 150px;
+}
+
+.insta-logo {
+  width: 20%;
+  text-align: right;
+}
+
+.contact-small {
+  display: none;
 }
 
 .logo {
-  width: 30%;
+  width: 20%;
 }
 
 .wrapper {

@@ -32,6 +32,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   height: 160px;
   text-decoration: none;
+  z-index: 0;
 }
 
 @media only screen and (max-width: 978px) {
@@ -74,6 +75,7 @@ body {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
+  z-index: 0;
 }
 
 .email {
@@ -90,6 +92,7 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
+  z-index: 1;
 }
 
 .social {
@@ -140,7 +143,9 @@ body {
     opacity: 1;
   }
 }
-
+#back6 {
+  animation-delay: -40s;
+}
 #back6 {
   animation-delay: -40s;
 }

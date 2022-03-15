@@ -12,3 +12,14 @@ function setFooterHeight() {
 }
 
 window.addEventListener("resize", setFooterHeight);
+
+// check if a screen object exists and show it for current slide
+if (objects[index] != null) objects[index].showAction(ctx, {}, noop);
+// hide objects for slides that aren't in view
+var currentObject = index;
+var filteredObjects = objects.filter((value, index) => index !== currentObject);
+filteredObjects.forEach(function (object) {
+  if (object != null) {
+    object.hideAction(ctx, {}, noop);
+  }
+});

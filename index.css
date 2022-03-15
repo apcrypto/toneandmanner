@@ -122,7 +122,7 @@ body {
   top: 0;
   animation-name: fade;
   animation-iteration-count: infinite;
-  animation-duration: 48s;
+  animation-duration: 56s;
   width: 100%;
 }
 
@@ -130,10 +130,10 @@ body {
   0% {
     opacity: 1;
   }
-  15% {
+  27% {
     opacity: 1;
   }
-  17% {
+  30% {
     opacity: 0;
   }
   98% {
@@ -143,8 +143,9 @@ body {
     opacity: 1;
   }
 }
-#back6 {
-  animation-delay: -40s;
+
+#back7 {
+  animation-delay: -48s;
 }
 #back6 {
   animation-delay: -40s;

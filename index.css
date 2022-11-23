@@ -117,16 +117,26 @@ body {
   position: relative;
 }
 
-.images img {
+/* .images img {
   position: absolute;
   top: 0;
   animation-name: fade;
   animation-iteration-count: infinite;
   animation-duration: 56s;
   width: 100%;
+} */
+
+.images img {
+  position: absolute;
+  top: 0;
+  animation-timing-function: ease-in-out;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  width: 100%;
 }
 
-@keyframes fade {
+/* @keyframes fade {
   0% {
     opacity: 1;
   }
@@ -142,9 +152,34 @@ body {
   100% {
     opacity: 1;
   }
+} */
+@keyframes fade {
+  0% {
+    opacity: 0;
+    z-index: 100;
+  }
+  15% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: 1;
+  }
+}
+#back1 {
+  animation-delay: 4s;
+}
+#back2 {
+  animation-delay: 2s;
+}
+#back3 {
+  animation-delay: 0s;
 }
 
-#back7 {
+/* #back7 {
   animation-delay: -48s;
 }
 #back6 {
@@ -155,8 +190,8 @@ body {
 }
 #back4 {
   animation-delay: -24s;
-}
-#back3 {
+} */
+/* #back3 {
   animation-delay: -16s;
 }
 #back2 {
@@ -164,4 +199,4 @@ body {
 }
 #back1 {
   animation-delay: 0s;
-}
+} */
